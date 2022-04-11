@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./uiserver.js",
   "scripts": {
-    "start": "nodemon -w uiserver.js -w .env uiserver.js",
+    "start": "npx nodemon uiserver.js",
     "watch": "webpack --watch",
     "compile": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
